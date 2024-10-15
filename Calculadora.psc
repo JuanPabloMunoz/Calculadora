@@ -1,3 +1,65 @@
+Funcion suma
+	Definir resultado Como Real;
+	definir num1 Como Real;
+	definir num2 Como Real;
+	
+	Limpiar Pantalla;
+	Escribir "Ingrese un número: ";
+	num1<- ValidaNumero;
+	Escribir "Ingrese otro número: ";
+	num2<- ValidaNumero;
+	resultado<- num1+num2;
+	Escribir "El resultado de la suma es: ",resultado;
+FinFuncion
+
+
+Funcion resta
+	Definir  resultado Como Real;
+	definir num1 Como Real;
+	definir num2 Como Real;
+	
+	Limpiar Pantalla;
+	Escribir "Ingrese un número: ";
+	num1<- ValidaNumero;
+	Escribir "Ingrese otro número: ";
+	num2<- ValidaNumero;
+	resultado<- num1-num2;
+	Escribir "El resultado de la resta es: ",resultado;	
+FinFuncion
+
+
+Funcion multiplicacion
+	Definir resultado Como Real;
+	definir num1 Como Real;
+	definir num2 Como Real;
+	
+	Limpiar Pantalla;
+	Escribir "Ingrese un número: ";
+	num1<- ValidaNumero;
+	Escribir "Ingrese otro número: ";
+	num2<- ValidaNumero;
+	resultado<- num1*num2;
+	Escribir "El resultado de la multiplicación es: ",resultado;	
+FinFuncion
+
+
+Funcion division
+	Definir  resultado Como Real;
+	definir num1 Como Real;
+	definir num2 Como Real;
+	
+	Limpiar Pantalla;
+	Escribir "Ingrese un número: ";
+	num1<- ValidaNumero;
+	Escribir "Ingrese otro número: ";
+	num2<- ValidaNumero;
+	resultado<- num1/num2;
+	Escribir "El resultado de la division es: ",resultado;	
+FinFuncion
+
+
+
+
 Funcion procesado<- ValidaNumero
 	Definir numTex Como Caracter;
 	Definir largoTex Como Entero;
@@ -43,7 +105,7 @@ FinFuncion
 
 
 Algoritmo Calculadora
-	
+
 	Definir op Como Entero;
 	
 	Repetir
@@ -64,10 +126,10 @@ Algoritmo Calculadora
 	
 	Segun op Hacer
 	  
-		1:
-		2:
-		3:
-		4:
+		1:suma;
+		2:resta;
+		3:multiplicacion;
+		4:division;
 		5:  Limpiar Pantalla;
 			Escribir "Gracias por usar Calculadora V1.0";
 		
